@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.rar
+*.zip
+*.tar.gz
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/build/
+/coverage/
+
+# Android build & secrets
+**/.gradle/
+.gradle/
+/android/app/debug
+/android/app/profile
+/android/app/release
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+local.properties
+**/local.properties
+key.properties
+**/key.properties
+*.jks
+*.keystore
+**/*.jks
+**/*.keystore
+
+# Node & Package Managers
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Cloudflare & Wrangler
+.wrangler/
+**/.wrangler/
+.freebuff/
+**/.freebuff/
+
+# Firebase
+.firebase/
+**/.firebase/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json

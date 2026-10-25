@@ -1,0 +1,24 @@
+name = "cube-iii"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+PROGRES_TUNNEL = "https://possibilities-pencil-its-emails.trycloudflare.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cube_iii"
+database_id = "b3b9b599-4bf9-4994-8313-3a47cece0618"
+
+[[r2_buckets]]
+binding = "MEDIA_BUCKET"
+bucket_name = "cube-iii-media"
+
+[[durable_objects.bindings]]
+name = "GAME_ROOM"
+class_name = "GameRoomDO"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["GameRoomDO"]

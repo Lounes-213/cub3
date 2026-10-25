@@ -1,0 +1,8 @@
+# توجيه روابط المشاركة إلى صفحة الغرض المستقلة (بدون الدخول إلى التطبيق)
+# Cloudflare Pages يخدم هذا الملف تلقائياً مع ناتج flutter build web
+/p/*          /index.html   200
+/product/*    /index.html   200
+/produit/*    /index.html   200
+
+# احتياط: أي مسار آخر يعود للصفحة الرئيسية (SPA fallback)
+/*            /index.html   200

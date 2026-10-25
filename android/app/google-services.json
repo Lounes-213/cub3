@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "728043293384",
+    "firebase_url": "https://musabaqat-cube3-default-rtdb.firebaseio.com",
+    "project_id": "musabaqat-cube3",
+    "storage_bucket": "musabaqat-cube3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728043293384:android:4cfe9e7e716293cb9df3fd",
+        "android_client_info": {
+          "package_name": "com.example.musabaqat_cube3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJikSYCRGgdWCiXI7fXMlvT06_cfOiagY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
